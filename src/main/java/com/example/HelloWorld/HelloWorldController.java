@@ -5,12 +5,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class HelloWorldController {
-    @RequestMapping("/name")
-    public String index(){
-        return "Justin Nahorny";
-    }
+  
     @RequestMapping("/")
-    public String index1(){
+    public String index(){
         return "Hello World from the terminal!";
     }
 }
